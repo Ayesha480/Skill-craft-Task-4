@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Plan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+        }
+        .header {
+            background-color: #ff7e3e;
+            height: 120px;
+            position: relative;
+            border-top-right-radius: 100px;
+            border-bottom-left-radius: 100px;
+        }
+        .header h1 {
+            color: black;
+            font-size: 48px;
+            font-weight: bold;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .subheader {
+            text-align: center;
+            font-size: 24px;
+            letter-spacing: 3px;
+            margin-top: -20px;
+        }
+        .images {
+            display: flex;
+            justify-content: center;
+            margin: 30px 0;
+        }
+        .images img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin: 0 15px;
+            border: 5px solid #ff7e3e;
+        }
+        .prepared-for {
+            text-align: left;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>BUSINESS PLAN</h1>
+        </div>
+        <div class="subheader">HAND PAINTED MIRROR</div>
+
+        <!-- Images Section -->
+        <div class="images">
+            <img src="hand_paint.jpg" alt="Hand Painting">
+            <img src="mirror.jpg" alt="Mirror with Flowers">
+        </div>
+
+        <!-- Prepared for Section -->
+        <div class="prepared-for">
+            <p>PREPARED FOR</p>
+            <p><strong>SkillCraft</strong></p>
+            <p>Technology</p>
+        </div>
+    </div>
+</body>
+</html>
